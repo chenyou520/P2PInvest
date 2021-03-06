@@ -1,0 +1,3 @@
+include ':app', ':p2pinvestjinrong', ':MPChartExample', ':MPChartLib', ':GestureLock'
+rootProject.name='P2PInvest'
+include ':ViewPagerIndicator'
