@@ -110,7 +110,7 @@ public class WelcomeActivity extends Activity {
                     break;
 
                 case DOWNLOAD_APK_FAIL:
-                    UIUtils.toast("联网下载数据失败，请重新下载", false);
+                    UIUtils.toast("联网下载数据失败", false);
                     toMain();
                     break;
             }
