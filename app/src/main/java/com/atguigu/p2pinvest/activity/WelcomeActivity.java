@@ -46,6 +46,9 @@ import java.net.URL;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
+/**
+ * 欢迎界面
+ */
 public class WelcomeActivity extends Activity {
 
     private static final int TO_MAIN = 1;
@@ -107,7 +110,7 @@ public class WelcomeActivity extends Activity {
                     break;
 
                 case DOWNLOAD_APK_FAIL:
-                    UIUtils.toast("联网下载数据失败", false);
+                    UIUtils.toast("联网下载数据失败，请重新下载", false);
                     toMain();
                     break;
             }
